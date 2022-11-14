@@ -7,5 +7,7 @@ module.exports = {
   theme: {
     extend: {},
   },
+  // prefrence for browser : media || js add dark className : class
+  darkMode: "class",
   plugins: [],
 };

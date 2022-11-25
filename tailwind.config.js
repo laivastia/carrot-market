@@ -9,5 +9,5 @@ module.exports = {
   },
   // prefrence for browser : media || js add dark className : class
   darkMode: "class",
-  plugins: [],
+  plugins: [require("@tailwindcss/forms"), require("tailwind-scrollbar-hide")],
 };
